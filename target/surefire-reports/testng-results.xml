@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26777" started-at="2022-03-14T02:01:19 IST" finished-at="2022-03-14T02:01:46 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.Runner@6895a785]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="26777" started-at="2022-03-14T02:01:19 IST" finished-at="2022-03-14T02:01:46 IST">
+      <class name="cucumberOptions.Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.Runner@6895a785]" name="setUpClass" is-config="true" duration-ms="526" started-at="2022-03-14T02:01:19 IST" finished-at="2022-03-14T02:01:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7ff8a9dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.Runner@6895a785]" name="runScenario" duration-ms="8230" started-at="2022-03-14T02:01:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-14T02:01:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify all links are working fine for Home, Countries listing, Country Detail screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This scenario is to find out the broken link from Dashbard, Listing and Detail screen]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.Runner@6895a785]" name="runScenario" duration-ms="7569" started-at="2022-03-14T02:01:28 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-14T02:01:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify countries visited count on dashboard screen by selecting the countries from detail screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify countries visited and country to visist count is working as expected]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.Runner@6895a785]" name="runScenario" duration-ms="3367" started-at="2022-03-14T02:01:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-14T02:01:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify countries to visit count on dashboard screen by selecting a countries from the listing screen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify countries visited and country to visist count is working as expected]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.Runner@6895a785]" name="runScenario" duration-ms="6826" started-at="2022-03-14T02:01:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-14T02:01:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify country detail screen data as per the country selected by the user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify data shown on the listing screen must match with the detail screen]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.Runner@6895a785]" name="tearDownClass" is-config="true" duration-ms="232" started-at="2022-03-14T02:01:46 IST" finished-at="2022-03-14T02:01:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
